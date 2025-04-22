@@ -9,7 +9,15 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>Olá!</Text>
     </View>
   );
 }
+
+const style = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifycontent: "center",
+    alignItens: "center",
+  }
+})
